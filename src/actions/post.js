@@ -1,5 +1,5 @@
-import * as api from "../api/index";
-import * as types from "./types";
+/* import * as api from "../api/index";
+import { FETCH_POSTS,FETCH_SINGLE_POST } from "./types.js";
 
 
 export const fetchPosts = () => async (dispatch) => {
@@ -58,4 +58,4 @@ export const deletePost = (id) => async (dispatch) => {
   } catch (error) {
     console.log(error);
   }
-};
+}; */
