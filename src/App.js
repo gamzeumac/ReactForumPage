@@ -48,7 +48,7 @@ const App =() => {
             <a href="http://localhost:3000/posts">My Blog</a>
 
           </Typography>
-          <Button color="primary" variant="outlined" startIcon={<PenIcon/>}>
+          <Button color="primary" variant="outlined" startIcon={<PenIcon/>}onClick={handleOpen}>
             New Erstellt
           </Button>
         </Toolbar>
