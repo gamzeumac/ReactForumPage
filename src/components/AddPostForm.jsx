@@ -59,7 +59,7 @@ const AddPostForm = ({ open, handleClose }) => {
   const classes = useStyles();
   return (
     <Dialog open={open} onClose={handleClose}>
-      <DialogTitle> Yeni Yazı Oluştur</DialogTitle>
+      <DialogTitle> Neue Artikel</DialogTitle>
       <DialogContent>
         <DialogContentText>
           To subscribe to this website, please enter your email address here. We
@@ -69,7 +69,7 @@ const AddPostForm = ({ open, handleClose }) => {
           <form noValidate autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
             <TextField
               id="title"
-              label="Başlık"
+              label="Texttitel"
               name="title"
               variant="outlined"
               className={classes.textField}
@@ -80,7 +80,7 @@ const AddPostForm = ({ open, handleClose }) => {
             />
             <TextField
               id="subtitle"
-              label="Alt Başlık"
+              label="Text Untertitel"
               name="subtitle"
               variant="outlined"
               className={classes.textField}
@@ -132,7 +132,7 @@ const AddPostForm = ({ open, handleClose }) => {
       </DialogContent>
       <DialogActions>
         <Button onClick={clearForm} color="inherit">
-          Vazgeç
+        Aufstecken
         </Button>
         <Button
           type="submit"
@@ -140,7 +140,7 @@ const AddPostForm = ({ open, handleClose }) => {
           color="primary"
           variant="outlined"
         >
-          Yayınla
+          Veröffentlichen
         </Button>
       </DialogActions>
     </Dialog>

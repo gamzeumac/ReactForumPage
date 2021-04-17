@@ -4,7 +4,7 @@ import { CssBaseline, Container, AppBar,Grid,
 Toolbar, Typography, Button, IconButton } from "@material-ui/core";
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import PenIcon from "@material-ui/icons/Create";
-import Postslist from "./components/Postslist";
+import PostsList from "./components/PostsList";
 import AddPostFrom from "./components/AddPostForm";
 
 
@@ -57,7 +57,7 @@ const App =() => {
         <Grid item xs={12}>
           <Router>
             <Switch>
-              <Route exact path="/posts" component={Postslist} />
+              <Route exact path="/posts" component={PostsList} />
             </Switch>
             <Redirect from="/" to="/posts"></Redirect>
           </Router>
