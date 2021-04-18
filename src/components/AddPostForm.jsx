@@ -111,7 +111,7 @@ const AddPostForm = ({ open, handleClose }) => {
 
             <TextField
               id="content"
-              label="İçerik"
+              label="Textinhalt"
               name="content"
               multiline
               size="small"
